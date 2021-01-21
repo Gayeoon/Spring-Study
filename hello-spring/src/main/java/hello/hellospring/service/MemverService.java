@@ -9,13 +9,12 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemverService {
 
     private final MemberRepository memberRepository;
 
     @Autowired
-    public MemverService(MemoryMemberRepository memberRepository) {
+    public MemverService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
