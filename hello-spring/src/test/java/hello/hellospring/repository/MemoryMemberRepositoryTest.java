@@ -1,8 +1,6 @@
 package hello.hellospring.repository;
 
-import hello.hellospring.controller.domain.Member;
-import hello.hellospring.controller.repository.MemoryMemberRepository;
-import net.bytebuddy.implementation.bind.MethodDelegationBinder;
+import hello.hellospring.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
